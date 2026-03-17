@@ -2,13 +2,11 @@ class Person {
     String name;
     int age;
 
-    // Constructor
+   
     Person(String name, int age) {
         this.name = name;
         this.age = age;
     }
-
-    // Method to display details
     void display() {
         System.out.println("Name: " + name + ", Age: " + age);
     }
