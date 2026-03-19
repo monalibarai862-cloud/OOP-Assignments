@@ -1,30 +1,22 @@
-// Interface
 interface Bank {
     double getInterestRate();
 }
-
-// SBI class
 class SBI implements Bank {
     public double getInterestRate() {
         return 6.5;
     }
 }
-
-// HDFC class
 class HDFC implements Bank {
     public double getInterestRate() {
         return 7.0;
     }
 }
 
-// ICICI class
 class ICICI implements Bank {
     public double getInterestRate() {
         return 6.8;
     }
 }
-
-// Main class
 public class BankDemo {
     public static void main(String[] args) {
 
