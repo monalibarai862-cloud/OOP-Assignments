@@ -5,7 +5,6 @@ abstract class Shape {
         System.out.println("This is a shape");
     }
 }
-
 class Circle extends Shape {
     int radius = 5;
 
@@ -14,7 +13,6 @@ class Circle extends Shape {
         System.out.println("Circle Area = " + area);
     }
 }
-
 class Rectangle extends Shape {
     int length = 4;
     int width = 6;
