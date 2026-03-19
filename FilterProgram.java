@@ -1,10 +1,8 @@
-// Interface
 interface Filterable {
     void apply_filter(String filter_type);
     void reset_filter();
 }
 
-// Class 1
 class ImageProcessor implements Filterable {
     public void apply_filter(String filter_type) {
         System.out.println("Applying " + filter_type + " filter to image...");
@@ -14,8 +12,6 @@ class ImageProcessor implements Filterable {
         System.out.println("Image filters reset.");
     }
 }
-
-// Class 2
 class DataAnalyzer implements Filterable {
     public void apply_filter(String filter_type) {
         System.out.println("Applying " + filter_type + " filter to dataset...");
@@ -25,8 +21,6 @@ class DataAnalyzer implements Filterable {
         System.out.println("Data filters reset.");
     }
 }
-
-// Main class (renamed)
 public class FilterProgram {
     public static void main(String[] args) {
         ImageProcessor img = new ImageProcessor();
